@@ -1,0 +1,25 @@
+{
+  "name": "practica13.mjaa",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majoaavila/practica13.mjaa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majoaavila/practica13.mjaa/issues"
+  },
+  "homepage": "https://github.com/majoaavila/practica13.mjaa#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}

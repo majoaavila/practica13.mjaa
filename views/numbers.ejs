@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link href="/assets/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2> Maria Jose Avila Amezcua 4H</h2>
+        <h1> Es par o impar?</h1>
+        
+        <!-- condicion para q el numero sea par -->
+        <% if (number %2 == 0) { %> 
+            <h1>
+                <h1> R = es par</h1>
+                <ul>
+                    <!-- ciclo para que se muestre la cantidad de elementos -->
+                    <% for (let i = 1; i <= number * 2;  i++ ) { %>
+                        <li>
+                            <%= i %> 
+                            <% } %>
+                        </li>  
+                </ul>
+            </h1>
+             <!-- condicion para q el numero sea impar -->
+            <% } else { %> 
+                <h1>R = es impar</h1> 
+            <h1>
+                <ul>
+                    <!-- ciclo para que se muestre la cantidad de elementos -->
+                    <% for (let i = 1; i <= number;  i++ ) { %>
+                        <li>
+                            <%= i %> 
+                            <% } %>
+                        </li>  
+                </ul>
+            </h1>
+            <% } %>
+    </body>
+</html>
